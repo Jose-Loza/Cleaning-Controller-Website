@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nintendo Fixing Controller</title>
+  </head>
+  <body>
+    <style>
+      .redborder {
+        border-color: red;
+        background-color: red;
+        border-width: 25px;
+        border-radius: 100px;
+        color: white;
+        text-align: center;
+      }
+      .redborderalt2 {
+        border-color: red;
+        background-color: red;
+        color: white;
+        position:absolute; left:290px ; top: 380px;
+      }
+      .redborderalt3 {
+        border-color: red;
+        background-color: red;
+        color: white;
+        position:absolute; left:480px; top:480px
+      }
+      .redborderalt4 {
+        border-color: red;
+        background-color: red;
+        color: white;
+        position:absolute; left:290px ; top: 680px ;
+      }
+      .redborderalt5 {
+        border-color: red;
+        background-color: red;
+        color: white;
+        position:absolute; left:480px; top:760px;
+      }
+      .pagecolor {
+        background-color: black;
+      }
+      .pagesize {
+        max-width: 2000px;
+        max-height: 4000px;
+      }
+      .proimage {
+        width:250px;
+        height:250px;
+        border: 5px solid red;
+      }
+      .toolimage1 {
+        width:168px;
+        height:168px;
+        border: 5px solid red; 
+        position: absolute; 
+        left: 290px; 
+        top:480px ;
+      }
+      .joyconimage {
+        width:250px;
+        height:250px;
+        border: 5px solid red; position: absolute; left: 8px; top: 700px;
+      }
+      .toolimage2 {
+        width:168px; 
+        height:168px; 
+        border: 5px solid red; position: absolute; left: 290px; top:760px;
+      }
+      
+    </style>
+  </body>
+  <body class="pagecolor pagesize">
+    <h1 class="redborder" style="font-size: 75px">
+      Nintendo Switch Controller Repair Guide
+    </h1>
+    <p> <h2 class="redborder">
+      Disclaimer: Any damage caused during the repair process. I am not eligable nor to blame for any damaged caused during the process.</h2>
+    </p>
+    <p style="color:white;">
+      We all have had problems with our Nintendo controller whether it may be
+      drifitng sticks, sticky button(s), etc. Here at my website I have full on
+      guides on how to fix your Nintendo Switch Pro Controller and Joycon
+    </p>
+    <div><a href="http://127.0.0.1:5500/2.%20Switch%20Pro%20Controller.html">
+      <img class="proimage" src="Images/Switch Controller.jpg" alt="Switch Controller"/> 
+      </a>
+    </div>
+    <div> <a href="https://www.amazon.com/Screwdriver-Nintendo-Professional-Joystick-Replacement/dp/B085Q4PY3W/ref=asc_df_B085Q4PY3W/?tag=hyprod-20&linkCode=df0&hvadid=416652462199&hvpos=&hvnetw=g&hvrand=10034918918093658560&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9029992&hvtargid=pla-906405197699&psc=1&tag=&ref=&adgrpid=97957278230&hvpone=&hvptwo=&hvadid=416652462199&hvpos=&hvnetw=g&hvrand=10034918918093658560&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9029992&hvtargid=pla-906405197699"> 
+        <img class="toolimage1" src="Images/Tool Kit.jpg" alt="Tool Kit"> </a>
+    </div>
+    <h3 class="redborderalt2">Switch Pro Controller <div>Clicking on the Nintendo Switch Pro Controller will redirect you 
+      to the website that has my guide on how to repair your Nintendo <div> Switch Pro Controller.</div></div> 
+    </h3>
+    <div class="redborderalt3">Materials needed: <div>"Y"2.0 screwdriver,"Y"1.5 screwdriver,"+"2.0screwdriver,1 tweezers, 1 brush, 1 pry bar</div> <div>(Clicking on the image will take you to an Amazon page that contains a tool kit with all said tools and extra)</div> 
+    </div>    
+    <a href="http://127.0.0.1:5500/3.%20Joycon%20Controller%20Repair.html">
+      <img class="joyconimage"
+        src="Images/Joycon Controller.jpg"
+        alt="Joy Con"
+      />
+    </a>
+    <a href="https://www.amazon.com/Screwdriver-Nintendo-Professional-Joystick-Replacement/dp/B085Q4PY3W/ref=asc_df_B085Q4PY3W/?tag=hyprod-20&linkCode=df0&hvadid=416652462199&hvpos=&hvnetw=g&hvrand=10034918918093658560&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9029992&hvtargid=pla-906405197699&psc=1&tag=&ref=&adgrpid=97957278230&hvpone=&hvptwo=&hvadid=416652462199&hvpos=&hvnetw=g&hvrand=10034918918093658560&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9029992&hvtargid=pla-906405197699">
+      <img class="toolimage2" src="Images/Tool Kit.jpg" alt="Tool Kit">
+    </a>
+    <div>
+      <h3 class="redborderalt4"><div>Nintendo Joycon (Left and Right)</div>Clicking on the Nintendo will redirect you to the website that has my guide on how to repair your Nintendo Joycon (Left and Right)</h3>
+      <div class="redborderalt5">Materials needed: <div>"Y"2.0 screwdriver,"Y"1.5 screwdriver,"+"2.0screwdriver,1 tweezers, 1 brush, 1 pry bar</div> <div>(Clicking on the image will take you to an Amazon page that contains a tool kit with all said tools and extra)</div> </div>
+    </div>
+  </body>
+</html>
