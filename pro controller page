@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Switch Pro Controller</title>
+  </head>
+  <style>
+    .redborder {
+      border-color: red;
+      background-color: red;
+      border-width: 25px;
+      border-radius: 100px;
+      color: white;
+      text-align: center;
+    }
+    .redborderalt {
+      border-color: red;
+      background-color: red;
+      color: white;
+    }
+    .pagecolor {
+      background-color: black;
+    }
+    .pagesize {
+      max-width: 2000px;
+      max-height: 4000px;
+    }
+    .textcolor {
+      color: white;
+    }
+    .imageborder1 {
+      width: 250px;
+      height: 250px;
+      border: 5px solid red;
+    }
+    .imageborder2 {
+      width: 250px;
+      height: 250px;
+      border: 5px solid red;
+      position: absolute;
+      top: 550px;
+      right: 0px;
+    }
+    .imageborder3 {
+      width: 250px;
+      height: 250px;
+      border: 5px solid red;
+      position: absolute;
+      top: 825px;
+      left: 0px;
+    }
+    .imageborder4 {
+      width: 250px;
+      height: 250px;
+      border: 5px solid red;
+      position: absolute;
+      top: 1100px;
+      right: 0px;
+    }
+    .imageborder5 {
+      width: 250px;
+      height: 250px;
+      border: 5px solid red;
+      position: absolute;
+      top: 1375px;
+      left: 0px;
+    }
+    .imageborder6 {
+      width: 250px;
+      height: 250px;
+      border: 5px solid red;
+      position: absolute;
+      top: 1650px;
+      right: 0px;
+    }
+    .imageborder7 {
+      width: 250px;
+      height: 250px;
+      border: 5px solid red;
+      position: absolute;
+      top: 1925px;
+      left: 0px;
+    }
+    .imageborder8 {
+      width: 250px;
+      height: 250px;
+      border: 5px solid red;
+      position: absolute;
+      top: 2200px;
+      right: 0px;
+    }
+    .imageborder9 {
+      width: 250px;
+      height: 250px;
+      border: 5px solid red;
+      position: absolute;
+      top: 2475px;
+      left: 0px;
+    }
+    .imageborder10 {
+      width: 250px;
+      height: 250px;
+      border: 5px solid red;
+      position: absolute;
+      top: 2750px;
+      right: 0px;
+    }
+    .border1 {
+      border-style: solid;
+      border-color: red;
+      background-color: gray;
+      position: absolute;
+      top: 275px;
+      right: 350px;
+      width: 700px;
+      height: 250px;
+      font-size: xx-large;
+      font-style: inherit;
+      font-size: 40px;
+      text-align: center;
+    }
+    .border2 {
+      border-style: solid;
+      border-color: red;
+      background-color: gray;
+      position: absolute;
+      top: 550px;
+      right: 290px;
+      width: 700px;
+      height: 250px;
+      font-size: xx-large;
+      font-style: inherit;
+      font-size: 40px;
+      text-align: center;
+    }
+    .border3 {
+      border-style: solid;
+      border-color: red;
+      background-color: gray;
+      position: absolute;
+      top: 825px;
+      right: 350px;
+      width: 700px;
+      height: 250px;
+      font-size: xx-large;
+      font-style: inherit;
+      font-size: 40px;
+      text-align: center;
+    }
+    .border4 {
+      border-style: solid;
+      border-color: red;
+      background-color: gray;
+      position: absolute;
+      top: 1100px;
+      right: 290px;
+      width: 700px;
+      height: 250px;
+      font-size: xx-large;
+      font-style: inherit;
+      font-size: 40px;
+      text-align: center;
+    }
+    .border5 {
+      border-style: solid;
+      border-color: red;
+      background-color: gray;
+      position: absolute;
+      top: 1375px;
+      right: 350px;
+      width: 700px;
+      height: 250px;
+      font-size: xx-large;
+      font-style: inherit;
+      font-size: 40px;
+      text-align: center;
+    }
+    .border6 {
+      border-style: solid;
+      border-color: red;
+      background-color: gray;
+      position: absolute;
+      top: 1650px;
+      right: 290px;
+      width: 700px;
+      height: 250px;
+      font-size: xx-large;
+      font-style: inherit;
+      font-size: 40px;
+      text-align: center;
+    }
+    .border7 {
+      border-style: solid;
+      border-color: red;
+      background-color: gray;
+      position: absolute;
+      top: 1925px;
+      right: 350px;
+      width: 700px;
+      height: 250px;
+      font-size: xx-large;
+      font-style: inherit;
+      font-size: 40px;
+      text-align: center;
+    }
+    .border8 {
+      border-style: solid;
+      border-color: red;
+      background-color: gray;
+      position: absolute;
+      top: 2200px;
+      right: 290px;
+      width: 700px;
+      height: 250px;
+      font-size: xx-large;
+      font-style: inherit;
+      font-size: 40px;
+      text-align: center;
+    }
+    .border9 {
+      border-style: solid;
+      border-color: red;
+      background-color: gray;
+      position: absolute;
+      top: 2475px;
+      right: 350px;
+      width: 700px;
+      height: 250px;
+      font-size: xx-large;
+      font-style: inherit;
+      font-size: 40px;
+      text-align: center;
+    }
+    .border10 {
+      border-style: solid;
+      border-color: red;
+      background-color: gray;
+      position: absolute;
+      top: 2750px;
+      right: 290px;
+      width: 700px;
+      height: 250px;
+      font-size: xx-large;
+      font-style: inherit;
+      font-size: 40px;
+      text-align: center;
+    }
+    .border11 {
+      border-style: solid;
+      border-color: red;
+      background-color: gray;
+      position: absolute;
+      top: 3025px;
+      right: 0px;
+      width: 1400px;
+      height: 250px;
+      font-size: xx-large;
+      font-style: inherit;
+      font-size: 40px;
+      text-align: center;
+    }
+  </style>
+  <body class="pagecolor textcolor">
+    <h1 class="redborder" style="font-size: 75px">
+      Nintendo Switch Pro Controller Repair Guide
+    </h1>
+    <img
+      class="imageborder1"
+      src="https://scontent.cdninstagram.com/v/t1.15752-9/307985177_1742446466129893_9115463895837982374_n.jpg?stp=dst-jpg_s240x240&_nc_cat=100&ccb=1-7&_nc_sid=5a057b&_nc_ohc=cRlYRc49604AX-dttca&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=03_AVLbavzWtyU0civjEzuFK5nnzv5JACh3O4jUlrTT6NY1AA&oe=63327ED9"
+      alt=""
+    />
+    <div class="border1">
+      On the bottom of the handles of the controller are two black screws take
+      your "+" 2.0 screwdriver and unscerw them
+    </div>
+    <img
+      class="imageborder2"
+      src="https://scontent.cdninstagram.com/v/t1.15752-9/308444942_462049739297328_4224588116314111312_n.jpg?stp=dst-jpg_s240x240&_nc_cat=109&ccb=1-7&_nc_sid=5a057b&_nc_ohc=ttu6xYtmkjcAX83aMTZ&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=03_AVLq5BZs4namVlM1987_dtY-VMNAY6w0ExwaHWmlnilRuw&oe=63325BAD"
+      alt=""
+    />
+    <div class="border2">Then pull the hangles of the controller</div>
+    <img
+      class="imageborder3"
+      src="https://scontent.cdninstagram.com/v/t1.15752-9/308137411_490222269818894_7833714682366002710_n.jpg?stp=dst-jpg_s240x240&_nc_cat=107&ccb=1-7&_nc_sid=5a057b&_nc_ohc=32No5mJ_FfcAX-T9Ccp&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=03_AVIFnnOtYzWF4w3gNUw-HSuIViG_NvOYYkcaff4cu35elg&oe=6331F9C2"
+      alt=""
+    />
+    <div class="border3">Unscrew the 4 screws</div>
+    <img
+      class="imageborder4"
+      src="https://scontent.cdninstagram.com/v/t1.15752-9/308036230_5117708738334529_8341530480421346499_n.jpg?stp=dst-jpg_s240x240&_nc_cat=100&ccb=1-7&_nc_sid=5a057b&_nc_ohc=CnX2B9_MUHAAX-m4ukz&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=03_AVLUZq4houe5di6R3jMg82u8POJXGgEetatZBCl_5aiPoQ&oe=6332558D"
+      alt=""
+    />
+    <div class="border4">
+      Pull of the see through shell on the back gently with the pry tool
+    </div>
+    <img
+      class="imageborder5"
+      src="https://scontent.cdninstagram.com/v/t1.15752-9/308333047_462478705643428_6765522970095521996_n.jpg?stp=dst-jpg_s240x240&_nc_cat=110&ccb=1-7&_nc_sid=5a057b&_nc_ohc=hZlRcEET48EAX9Jiz0J&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=03_AVJnZ4h1vCnIDF4GSfKx8DV_Td4j7WB8MgN0zT2QPKeIeA&oe=63324E8D"
+      alt=""
+    />
+    <div class="border5">Gently remove the battery</div>
+    <img
+      class="imageborder6"
+      src="https://scontent.cdninstagram.com/v/t1.15752-9/308099299_595684605585635_6889470993674581108_n.jpg?stp=dst-jpg_s240x240&_nc_cat=111&ccb=1-7&_nc_sid=5a057b&_nc_ohc=GC0X75bML5oAX_T634U&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=03_AVJQatpldLFLa6o2J4ijtFFnGI492Hjp-dfF7njxKDuCLw&oe=63320391"
+      alt=""
+    />
+    <div class="border6">Remove the 5 screws located</div>
+    <img
+      class="imageborder7"
+      src="https://scontent.cdninstagram.com/v/t1.15752-9/308019594_5592308360848239_9087557867387165523_n.jpg?stp=dst-jpg_s240x240&_nc_cat=108&ccb=1-7&_nc_sid=5a057b&_nc_ohc=GRYbTBhDvUcAX8mVz4Q&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=03_AVKJoUX_3ABHp1iG3Sr-YOvdD0kGk5g3W7mVJ2PUPUFGKg&oe=63327263"
+      alt=""
+    />
+    <div class="border7">Gently detach the front cover</div>
+    <img
+      class="imageborder8"
+      src="https://scontent.cdninstagram.com/v/t1.15752-9/308363726_1526029051165506_9202501528966608865_n.jpg?stp=dst-jpg_s240x240&_nc_cat=102&ccb=1-7&_nc_sid=5a057b&_nc_ohc=U7IRfTKLfToAX83LoQj&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=03_AVLNKVipEHHgO00raJmuNcFqmrBDGz66rI-WMc06w65_1w&oe=633248C7"
+      alt=""
+    />
+    <div class="border8">
+      Be careful there is ribbon cabel next step. Detech the ribbon cabel
+      connecting the front and back cover
+    </div>
+    <img
+      class="imageborder9"
+      src="https://scontent.cdninstagram.com/v/t1.15752-9/307652443_790021182247251_5342190614265049272_n.jpg?stp=dst-jpg_s240x240&_nc_cat=103&ccb=1-7&_nc_sid=5a057b&_nc_ohc=koErExzbmAAAX-74pHe&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=03_AVIHGD3uePsX3UPJ-1131miqNZYhJmSYumfOLvhNRhE6vA&oe=63320C44"
+      alt=""
+    />
+    <div class="border9">
+      Pull off the Joystick and brush off any dust or water them with water then
+      dry them off
+    </div>
+    <img
+      class="imageborder10"
+      src="https://scontent.cdninstagram.com/v/t1.15752-9/306694509_1084801428871150_834692033178754579_n.jpg?stp=dst-jpg_p240x240&_nc_cat=102&ccb=1-7&_nc_sid=5a057b&_nc_ohc=IZSynD4qUusAX_hBJUf&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=03_AVIlUQs7lrYacH8SE23NI8kxMKjX-mCWRVq9amG8f2OIsw&oe=63328722"
+      alt=""
+    />
+    <div class="border10">
+      Once cleaned or dried plug the joysticks back into original position
+    </div>
+    <div class="border11">
+      Put everything back together and you're done fixing your controller
+    </div>
+  </body>
+</html>
